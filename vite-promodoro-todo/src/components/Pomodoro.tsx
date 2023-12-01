@@ -43,7 +43,7 @@ const PomodoroTimer: React.FC = () => {
     };
   }, [min, sec, start, progress]);
   return (
-    <main className="PomodoroTimer">
+    <main>
       <TimerButtons
         setAmount={setAmount}
         setSec={setSec}

@@ -7,16 +7,16 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div className="PomodoroTimer">
+    <div className="parent">
+      <div className="child">
         <h1>Pomodoro </h1>
         <PomodoroTimer />
       </div>
-      <div className="ToDo">
-        {" "}
+      <div className="child">
+        <h1>ToDo</h1>
         <ToDo />
-      </div>{" "}
-    </>
+      </div>
+    </div>
   );
 }
 
